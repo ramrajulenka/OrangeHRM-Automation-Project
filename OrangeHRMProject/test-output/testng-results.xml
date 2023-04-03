@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="48" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T21:26:55 IST" name="OrangeHRM Test suite" finished-at="2023-04-03T21:34:51 IST" duration-ms="475571">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T21:26:55 IST" name="OrangeHRM" finished-at="2023-04-03T21:34:51 IST" duration-ms="475571">
+      <class name="TestCase.AddEmployeeTestCases">
+        <test-method signature="addEmpDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:33:01 IST" name="addEmpDataDriven" description="Add Employee By using Data Driven Basic flow" data-provider="readData" finished-at="2023-04-03T21:33:10 IST" duration-ms="9172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[captain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[america]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpDataDriven -->
+        <test-method signature="addEmpDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:33:10 IST" name="addEmpDataDriven" description="Add Employee By using Data Driven Basic flow" data-provider="readData" finished-at="2023-04-03T21:33:19 IST" duration-ms="8637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[i]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[am]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kira]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpDataDriven -->
+        <test-method signature="addEmpDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:33:19 IST" name="addEmpDataDriven" description="Add Employee By using Data Driven Basic flow" data-provider="readData" finished-at="2023-04-03T21:33:30 IST" duration-ms="10953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tony]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stark]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IronMan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpDataDriven -->
+        <test-method signature="addEmpDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:33:30 IST" name="addEmpDataDriven" description="Add Employee By using Data Driven Basic flow" data-provider="readData" finished-at="2023-04-03T21:33:40 IST" duration-ms="10401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bruce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Banar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hulk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpDataDriven -->
+        <test-method signature="addEmpDataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:33:40 IST" name="addEmpDataDriven" description="Add Employee By using Data Driven Basic flow" data-provider="readData" finished-at="2023-04-03T21:33:50 IST" duration-ms="9471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lenka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rama]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raju]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpDataDriven -->
+        <test-method signature="addEmpEndToEnd()[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:33:50 IST" name="addEmpEndToEnd" description="Add Employee End To End Test Case Alternet Flow" finished-at="2023-04-03T21:34:01 IST" duration-ms="11092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpEndToEnd -->
+        <test-method signature="addEmptyValues()[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:34:01 IST" name="addEmptyValues" description="Employee First Name And Last Name Should Not Empty" finished-at="2023-04-03T21:34:09 IST" duration-ms="8473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmptyValues -->
+        <test-method signature="createLoginDetails()[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:34:09 IST" name="createLoginDetails" description="Verift The Admin Able to Create Login Details of an Employee" finished-at="2023-04-03T21:34:27 IST" duration-ms="17278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLoginDetails -->
+        <test-method signature="deleteMitipleEmp()[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:34:27 IST" name="deleteMitipleEmp" description="Delete Multiple Employees" finished-at="2023-04-03T21:34:38 IST" duration-ms="11226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMitipleEmp -->
+        <test-method signature="verifyUserPasswordLessChar()[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:34:38 IST" name="verifyUserPasswordLessChar" description="Verift The username and password " finished-at="2023-04-03T21:34:44 IST" duration-ms="5765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPasswordLessChar -->
+        <test-method signature="verifyUserPasswordMoreChar()[pri:0, instance:TestCase.AddEmployeeTestCases@3cebbb30]" started-at="2023-04-03T21:34:44 IST" name="verifyUserPasswordMoreChar" description="Verify The username and password does not having more then " finished-at="2023-04-03T21:34:51 IST" duration-ms="6760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPasswordMoreChar -->
+      </class> <!-- TestCase.AddEmployeeTestCases -->
+      <class name="TestCase.TerminationReasonsTestCase">
+        <test-method signature="deleteAllUnUsedTerminations()[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:31:07 IST" name="deleteAllUnUsedTerminations" description="Verify Admin Able to delete all Un Used  Termination Reasons single click " finished-at="2023-04-03T21:31:22 IST" duration-ms="14807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUnUsedTerminations -->
+        <test-method signature="sameReportNames()[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:31:22 IST" name="sameReportNames" description="Verify Same Two  Termination Reasons Does not Exist " finished-at="2023-04-03T21:31:46 IST" duration-ms="23705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sameReportNames -->
+        <test-method signature="terminationDataDriven(java.lang.String)[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:31:46 IST" name="terminationDataDriven" description="Termination Reasons End to End Test Case Basic Flow" data-provider="readData" finished-at="2023-04-03T21:31:56 IST" duration-ms="9741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Attendance issues]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminationDataDriven -->
+        <test-method signature="terminationDataDriven(java.lang.String)[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:31:56 IST" name="terminationDataDriven" description="Termination Reasons End to End Test Case Basic Flow" data-provider="readData" finished-at="2023-04-03T21:32:06 IST" duration-ms="9613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Incompetence]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminationDataDriven -->
+        <test-method signature="terminationDataDriven(java.lang.String)[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:32:06 IST" name="terminationDataDriven" description="Termination Reasons End to End Test Case Basic Flow" data-provider="readData" finished-at="2023-04-03T21:32:16 IST" duration-ms="9990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Physical violence]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminationDataDriven -->
+        <test-method signature="terminationDataDriven(java.lang.String)[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:32:16 IST" name="terminationDataDriven" description="Termination Reasons End to End Test Case Basic Flow" data-provider="readData" finished-at="2023-04-03T21:32:25 IST" duration-ms="9499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Illness.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminationDataDriven -->
+        <test-method signature="terminationDataDriven(java.lang.String)[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:32:25 IST" name="terminationDataDriven" description="Termination Reasons End to End Test Case Basic Flow" data-provider="readData" finished-at="2023-04-03T21:32:35 IST" duration-ms="9544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Redundancy.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminationDataDriven -->
+        <test-method signature="terminationEndToEnd()[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:32:35 IST" name="terminationEndToEnd" description="Termination Reasons End to End Test Case Alternet Flow" finished-at="2023-04-03T21:32:49 IST" duration-ms="14837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminationEndToEnd -->
+        <test-method signature="terminationNotEmpty()[pri:0, instance:TestCase.TerminationReasonsTestCase@1e1a0406]" started-at="2023-04-03T21:32:49 IST" name="terminationNotEmpty" description="Verify Termination Reasons Name Should Not empty " finished-at="2023-04-03T21:33:01 IST" duration-ms="11248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminationNotEmpty -->
+      </class> <!-- TestCase.TerminationReasonsTestCase -->
+      <class name="TestCase.LoginTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:26:56 IST" name="setUp" finished-at="2023-04-03T21:26:58 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login_end_to_End()[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:26:58 IST" name="Login_end_to_End" description="Login End to End Test Cases" finished-at="2023-04-03T21:27:31 IST" duration-ms="33006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_end_to_End -->
+        <test-method signature="verifyLogInvalidCrediantial(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:27:33 IST" name="verifyLogInvalidCrediantial" description="Login Negative Test case by usind data driven excell sheet" data-provider="readData" finished-at="2023-04-03T21:27:36 IST" duration-ms="3176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rama@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInvalidCrediantial -->
+        <test-method signature="verifyLogInvalidCrediantial(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:27:36 IST" name="verifyLogInvalidCrediantial" description="Login Negative Test case by usind data driven excell sheet" data-provider="readData" finished-at="2023-04-03T21:27:39 IST" duration-ms="2804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramaraju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInvalidCrediantial -->
+        <test-method signature="verifyLogInvalidCrediantial(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:27:39 IST" name="verifyLogInvalidCrediantial" description="Login Negative Test case by usind data driven excell sheet" data-provider="readData" finished-at="2023-04-03T21:27:44 IST" duration-ms="4799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramaraju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rama@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInvalidCrediantial -->
+        <test-method signature="verifyLogInvalidCrediantial(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:27:44 IST" name="verifyLogInvalidCrediantial" description="Login Negative Test case by usind data driven excell sheet" data-provider="readData" finished-at="2023-04-03T21:27:50 IST" duration-ms="6810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInvalidCrediantial -->
+        <test-method signature="verifyLogInvalidCrediantial(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:27:50 IST" name="verifyLogInvalidCrediantial" description="Login Negative Test case by usind data driven excell sheet" data-provider="readData" finished-at="2023-04-03T21:27:56 IST" duration-ms="5353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ironman]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInvalidCrediantial -->
+        <test-method signature="verifyLogWithNullValues(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:27:56 IST" name="verifyLogWithNullValues" description="Login Negative Test case by usind data driven Passing Null Values" data-provider="readNullData" finished-at="2023-04-03T21:27:58 IST" duration-ms="1983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogWithNullValues -->
+        <test-method signature="verifyLogWithNullValues(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:27:58 IST" name="verifyLogWithNullValues" description="Login Negative Test case by usind data driven Passing Null Values" data-provider="readNullData" finished-at="2023-04-03T21:28:00 IST" duration-ms="1904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogWithNullValues -->
+        <test-method signature="verifyLogWithNullValues(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:28:00 IST" name="verifyLogWithNullValues" description="Login Negative Test case by usind data driven Passing Null Values" data-provider="readNullData" finished-at="2023-04-03T21:28:01 IST" duration-ms="1726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogWithNullValues -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:TestCase.LoginTestCases@729d991e]" started-at="2023-04-03T21:34:51 IST" name="tear" finished-at="2023-04-03T21:34:51 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- TestCase.LoginTestCases -->
+      <class name="TestCase.OptionalFieldTestCases">
+        <test-method signature="optionalAlternetFlow()[pri:0, instance:TestCase.OptionalFieldTestCases@36916eb0]" started-at="2023-04-03T21:28:01 IST" name="optionalAlternetFlow" description="OptionalField End to End Test Case Alternet flow" finished-at="2023-04-03T21:28:19 IST" duration-ms="17949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionalAlternetFlow -->
+        <test-method signature="optionalEndToEndBasicFlow()[pri:0, instance:TestCase.OptionalFieldTestCases@36916eb0]" started-at="2023-04-03T21:28:19 IST" name="optionalEndToEndBasicFlow" description="OptionalField End to End Test Case Basic flow" finished-at="2023-04-03T21:28:35 IST" duration-ms="15514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionalEndToEndBasicFlow -->
+      </class> <!-- TestCase.OptionalFieldTestCases -->
+      <class name="TestCase.ReportingMethodsTestCase">
+        <test-method signature="deleteAllUnUsedReports()[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:28:35 IST" name="deleteAllUnUsedReports" description="Verify Admin Able to delete all Un Used  Reporting Methods in single click " finished-at="2023-04-03T21:28:58 IST" duration-ms="23244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUnUsedReports -->
+        <test-method signature="reportinMethodDataDriven(java.lang.String)[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:28:58 IST" name="reportinMethodDataDriven" description="Reporting Methods End to End Test Case Basic  Flow" data-provider="readData" finished-at="2023-04-03T21:29:13 IST" duration-ms="14155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abstracts and Briefings]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinMethodDataDriven -->
+        <test-method signature="reportinMethodDataDriven(java.lang.String)[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:29:13 IST" name="reportinMethodDataDriven" description="Reporting Methods End to End Test Case Basic  Flow" data-provider="readData" finished-at="2023-04-03T21:29:23 IST" duration-ms="10313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Annual Reports.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinMethodDataDriven -->
+        <test-method signature="reportinMethodDataDriven(java.lang.String)[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:29:23 IST" name="reportinMethodDataDriven" description="Reporting Methods End to End Test Case Basic  Flow" data-provider="readData" finished-at="2023-04-03T21:29:39 IST" duration-ms="15820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brochures.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinMethodDataDriven -->
+        <test-method signature="reportinMethodDataDriven(java.lang.String)[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:29:39 IST" name="reportinMethodDataDriven" description="Reporting Methods End to End Test Case Basic  Flow" data-provider="readData" finished-at="2023-04-03T21:29:51 IST" duration-ms="11947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fact Sheets.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinMethodDataDriven -->
+        <test-method signature="reportinMethodDataDriven(java.lang.String)[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:29:51 IST" name="reportinMethodDataDriven" description="Reporting Methods End to End Test Case Basic  Flow" data-provider="readData" finished-at="2023-04-03T21:30:08 IST" duration-ms="17551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Posters.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportinMethodDataDriven -->
+        <test-method signature="reportingMethodAlterFlow()[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:30:08 IST" name="reportingMethodAlterFlow" description="Reporting Methods End to End Test Case Alternet Flow" finished-at="2023-04-03T21:30:34 IST" duration-ms="25620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportingMethodAlterFlow -->
+        <test-method signature="reportingMethodNotEmpty()[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:30:34 IST" name="reportingMethodNotEmpty" description="Verify the Reporting Methods Name Should Not Empty" finished-at="2023-04-03T21:30:47 IST" duration-ms="13471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportingMethodNotEmpty -->
+        <test-method signature="sameReportNames()[pri:0, instance:TestCase.ReportingMethodsTestCase@23c30a20]" started-at="2023-04-03T21:30:47 IST" name="sameReportNames" description="Verify Same Two  Reporting Methods Does not Exist " finished-at="2023-04-03T21:31:07 IST" duration-ms="20017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sameReportNames -->
+      </class> <!-- TestCase.ReportingMethodsTestCase -->
+    </test> <!-- OrangeHRM -->
+  </suite> <!-- OrangeHRM Test suite -->
+</testng-results>
